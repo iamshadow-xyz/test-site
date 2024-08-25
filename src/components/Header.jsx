@@ -5,7 +5,7 @@ function Header() {
         <div className="nav-left">
           <img
             className="header-logo"
-            src="src/assets/shadowspace.svg"
+            src="../assets/Shadowspace.svg"
             alt="ShadowspaceLogo"
           />
           <h1 className="header-name">Shadowspace</h1>
