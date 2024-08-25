@@ -1,4 +1,4 @@
-import computer from "src/assets/computing.jpeg";
+import computer from "../assets/computing.jpeg";
 
 function Main() {
   return (
