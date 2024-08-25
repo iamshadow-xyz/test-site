@@ -1,9 +1,11 @@
+import computer from "src/assets/computing.jpeg";
+
 function Main() {
   return (
     <main>
       {/* <h1 className="big-text">Introduction to computing</h1> */}
       <div className="hero">
-        <img src="src/assets/computing.jpeg" alt="Computer" />
+        <img src={computer} alt="Computer" />
         <div className="summary">
           <h1 className="blog-header">What is Computing ?</h1>
           <p>
