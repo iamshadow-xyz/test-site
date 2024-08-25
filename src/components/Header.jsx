@@ -1,3 +1,5 @@
+import Shadowspace from "../assets/Shadowspace.svg";
+
 function Header() {
   return (
     <header>
@@ -5,7 +7,7 @@ function Header() {
         <div className="nav-left">
           <img
             className="header-logo"
-            src="../assets/Shadowspace.svg"
+            src={Shadowspace}
             alt="ShadowspaceLogo"
           />
           <h1 className="header-name">Shadowspace</h1>
