@@ -1,5 +1,5 @@
 import Computing from "../assets/Computing.jpeg";
-import Computer from "src/assets/Computer.jpg";
+import Computer from "../assets/Computer.jpg";
 import Abacus from "../assets/Abacus.jpeg";
 import AlanTuring from "../assets/alan turing.jpeg";
 import AnalyticalEngine from "../assets/analytical engine.jpeg";
@@ -41,7 +41,7 @@ function Main() {
       </div>
 
       <div className="hero">
-        <img src={Computer} alt="Computer" />
+        <img src={Computer} alt="Computing" />
         <div className="summary">
           <h1 className="blog-header">What is Computer ?</h1>
           <p>
