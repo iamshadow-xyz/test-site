@@ -17,7 +17,7 @@ import Z3 from "../assets/z3.jpeg";
 import HarvardMK1 from "../assets/harward mk 1.jpeg";
 import Transistor from "../assets/transistor.jpeg";
 import MooresLaw from "../assets/moore's law.png";
-import IBMPc from "../assets/ibm pc.jpeg";
+import IBMPC from "../assets/ibm pc.jpeg";
 import Xerox from "../assets/xerox.jpeg";
 import WWW from "../assets/www.jpeg";
 import Intel4004 from "../assets/intel 4004.jpeg";
@@ -319,7 +319,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src={IBMPc} alt="IBM PC" />
+          <img src={IBMPC} alt="IBM PC" />
         </div>
         <div className="summary">
           <small>IBM PC (1981)</small>
