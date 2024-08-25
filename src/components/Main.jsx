@@ -21,6 +21,7 @@ import IBMPc from "../assets/ibm pc.jpeg";
 import Xerox from "../assets/xerox.jpeg";
 import WWW from "../assets/www.jpeg";
 import Intel4004 from "../assets/intel 4004.jpeg";
+import React from "react";
 
 function Main() {
   return (
@@ -404,84 +405,80 @@ function Main() {
       <div className="details">
         <div className="summary">
           <h1 className="blog-header">History of computer hardware</h1>
-          <p>
-            <ul>
-              <li>
-                First generation (Mechanical/Electromechanical)
-                <ul>
-                  <li>Calculators : Pascaline, difference engine</li>
-                  <li>
-                    Programmable : Analytical engine, Harvard mark 1,2 Z1-Z3
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Second generation (Vacuume tubes)
-                <ul>
-                  <li>Calculators : ABC, IMB 604</li>
-                  <li>
-                    Programable : ENIAC, Collosus, manchester mk 1, EDVAC, IBM
-                    701, IBM 702, IBM 650
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Third generation (Transistors SSI, MSI, LSI IC's)
-                <ul>
-                  <li>Mainframes : IBM 7090, IBM 7080 and IBM 360</li>
-                  <li>Minicomputer : HP 2116A, IBM system 32 </li>
-                </ul>
-              </li>
-              <li>
-                Fourth generation (VLSI integrated circuits)
-                <ul>
-                  <li>Minicomputers : IBM 400</li>
-                  <li>4-bit microcomputer : intel 4004, intel 4040</li>
-                  <li>
-                    8-bit microcomputer : intel 8008, intel 8080 Moto 6800
-                  </li>
-                  <li>
-                    16-bit microcomputer : intel 8088 (there were not much of
-                    companies in IC market intel was dominating)
-                  </li>
-                  <li>
-                    32-bit microcomputer : intel 80386, Pentium (most popular)
-                    motorola 68000, ARM
-                  </li>
-                  <li>64-bit microcomputer : RISC type, x86 architecture</li>
-                  <li>Embedded computer : intel 8048, 8051 microcontroller</li>
-                  <li>
-                    Personal computers : Desktop, Laptop, Wearable computer,
-                    Mobile phone, Tablets, and much more
-                  </li>
-                  <li>Quantum computer : IBM Q system one</li>
-                  <li>DNA computing : none</li>
-                  <li>Organic computer : none</li>
-                </ul>
-              </li>
-              <li>
-                Peripheral devices (I/O)
-                <ul>
-                  <li>
-                    Input : Mouse, keyboard, scanner, microphone, touchscreen,
-                    Joysstick, gamepad
-                  </li>
-                  <li>Output : Monitor, Printer, Speacker, Projector</li>
-                  <li>
-                    Both : Floppy disk drive (Oldest), Hard disk drive, Solid
-                    state drive (Latest)
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Computer Buses
-                <ul>
-                  <li>Short range : RS232, PCI, USB</li>
-                  <li>Long range (Internet) : Ethernet, Fibre optic.</li>
-                </ul>
-              </li>
-            </ul>
-          </p>
+          <ul>
+            <li>
+              First generation (Mechanical/Electromechanical)
+              <ul>
+                <li>Calculators : Pascaline, difference engine</li>
+                <li>
+                  Programmable : Analytical engine, Harvard mark 1,2 Z1-Z3
+                </li>
+              </ul>
+            </li>
+            <li>
+              Second generation (Vacuume tubes)
+              <ul>
+                <li>Calculators : ABC, IMB 604</li>
+                <li>
+                  Programable : ENIAC, Collosus, manchester mk 1, EDVAC, IBM
+                  701, IBM 702, IBM 650
+                </li>
+              </ul>
+            </li>
+            <li>
+              Third generation (Transistors SSI, MSI, LSI IC's)
+              <ul>
+                <li>Mainframes : IBM 7090, IBM 7080 and IBM 360</li>
+                <li>Minicomputer : HP 2116A, IBM system 32 </li>
+              </ul>
+            </li>
+            <li>
+              Fourth generation (VLSI integrated circuits)
+              <ul>
+                <li>Minicomputers : IBM 400</li>
+                <li>4-bit microcomputer : intel 4004, intel 4040</li>
+                <li>8-bit microcomputer : intel 8008, intel 8080 Moto 6800</li>
+                <li>
+                  16-bit microcomputer : intel 8088 (there were not much of
+                  companies in IC market intel was dominating)
+                </li>
+                <li>
+                  32-bit microcomputer : intel 80386, Pentium (most popular)
+                  motorola 68000, ARM
+                </li>
+                <li>64-bit microcomputer : RISC type, x86 architecture</li>
+                <li>Embedded computer : intel 8048, 8051 microcontroller</li>
+                <li>
+                  Personal computers : Desktop, Laptop, Wearable computer,
+                  Mobile phone, Tablets, and much more
+                </li>
+                <li>Quantum computer : IBM Q system one</li>
+                <li>DNA computing : none</li>
+                <li>Organic computer : none</li>
+              </ul>
+            </li>
+            <li>
+              Peripheral devices (I/O)
+              <ul>
+                <li>
+                  Input : Mouse, keyboard, scanner, microphone, touchscreen,
+                  Joysstick, gamepad
+                </li>
+                <li>Output : Monitor, Printer, Speacker, Projector</li>
+                <li>
+                  Both : Floppy disk drive (Oldest), Hard disk drive, Solid
+                  state drive (Latest)
+                </li>
+              </ul>
+            </li>
+            <li>
+              Computer Buses
+              <ul>
+                <li>Short range : RS232, PCI, USB</li>
+                <li>Long range (Internet) : Ethernet, Fibre optic.</li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
 
