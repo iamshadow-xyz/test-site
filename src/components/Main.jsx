@@ -25,7 +25,6 @@ import Intel4004 from "../assets/intel 4004.jpeg";
 function Main() {
   return (
     <main>
-      {/* <h1 className="big-text">Introduction to computing</h1> */}
       <div className="hero">
         <img src={Computing} alt="Computing" />
         <div className="summary">
