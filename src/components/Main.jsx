@@ -1,5 +1,5 @@
 import Computing from "../assets/Computing.jpeg";
-import Computer from "../assets/Computer.jpg";
+import Computer from "../assets/computer.jpg";
 import Abacus from "../assets/Abacus.jpeg";
 import AlanTuring from "../assets/alan turing.jpeg";
 import AnalyticalEngine from "../assets/analytical engine.jpeg";
