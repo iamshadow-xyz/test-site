@@ -1,11 +1,33 @@
 import Computing from "../assets/Computing.jpeg";
+import Computer from "../assets/Computer.jpg";
+import Abacus from "../assets/Abacus.jpeg";
+import AlanTuring from "../assets/alan turing.jpeg";
+import AnalyticalEngine from "../assets/analytical engine.jpeg";
+import Apple2 from "../assets/Apple 2.jpeg";
+import Macintosh from "../assets/apple macintosh.jpeg";
+import BillGates from "../assets/bill gates.jpeg";
+import CharlesBabbage from "../assets/Charles babbage.jpeg";
+import EDVAC from "../assets/EDVAC.jpeg";
+import Facebook from "../assets/facebook.png";
+import ENIAC from "../assets/ENIAC.jpeg";
+import Google from "../assets/Google.jpeg";
+import Pascaline from "../assets/pascaline.jpeg";
+import Tabulator from "../assets/tabulator.jpeg";
+import Z3 from "../assets/z3.jpeg";
+import HarvardMK1 from "../assets/harward mk 1.jpeg";
+import Transistor from "../assets/transistor.jpeg";
+import MooresLaw from "../assets/moore's law.png";
+import IBMPc from "../assets/ibm pc.jpeg";
+import Xerox from "../assets/xerox.jpeg";
+import WWW from "../assets/www.jpeg";
+import Intel4004 from "../assets/intel 4004.jpeg";
 
 function Main() {
   return (
     <main>
       {/* <h1 className="big-text">Introduction to computing</h1> */}
       <div className="hero">
-        <img src={Computing} />
+        <img src={Computing} alt="Computing" />
         <div className="summary">
           <h1 className="blog-header">What is Computing ?</h1>
           <p>
@@ -19,7 +41,7 @@ function Main() {
       </div>
 
       <div className="hero">
-        <img src="src/assets/computer.jpg" alt="Computer" />
+        <img src={Computer} alt="Computer" />
         <div className="summary">
           <h1 className="blog-header">What is Computer ?</h1>
           <p>
@@ -70,7 +92,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/Abacus.jpeg" alt="Computer" />
+          <img src={Abacus} alt="Computer" />
         </div>
         <div className="summary">
           <small>Abacus invented in 2400BCE in Mesopotamia, China</small>
@@ -84,7 +106,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/pascaline.jpeg" alt="Computer" />
+          <img src={Pascaline} alt="Computer" />
         </div>
         <div className="summary">
           <small>Pascaline, created in 17th Century</small>
@@ -98,7 +120,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/analytical engine.jpeg" alt="Computer" />
+          <img src={AnalyticalEngine} alt="Computer" />
         </div>
         <div className="summary">
           <small>Charles babbage's Analytical Engine (1837)</small>
@@ -115,7 +137,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/tabulator.jpeg" alt="Computer" />
+          <img src={Tabulator} alt="Tabulator" />
         </div>
         <div className="summary">
           <small>Tabulator (1884)</small>
@@ -134,7 +156,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/alan turing.jpeg" alt="Computer" />
+          <img src={AlanTuring} alt="Alan Turing" />
         </div>
         <div className="summary">
           <small>Alan turing (1936)</small>
@@ -152,7 +174,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/z3.jpeg" alt="Computer" />
+          <img src={Z3} alt="Z3" />
         </div>
         <div className="summary">
           <small>Zuse's Z3 (1941)</small>
@@ -166,7 +188,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/harward mk 1.jpeg" alt="Computer" />
+          <img src={HarvardMK1} alt="Harvard MK 1" />
         </div>
         <div className="summary">
           <small>Harvard mark 1 (1943)</small>
@@ -181,7 +203,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/ENIAC.jpeg" alt="Computer" />
+          <img src={ENIAC} alt="ENIAC" />
         </div>
         <div className="summary">
           <small>ENIAC (1945)</small>
@@ -197,7 +219,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/EDVAC.jpeg" alt="Computer" />
+          <img src={EDVAC} alt="EDVAC" />
         </div>
         <div className="summary">
           <small>EDVAC (1946)</small>
@@ -212,7 +234,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/transistor.jpeg" alt="Computer" />
+          <img src={Transistor} alt="Transistor" />
         </div>
         <div className="summary">
           <small>Transistors (1947)</small>
@@ -228,7 +250,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/intel 4004.jpeg" alt="Computer" />
+          <img src={Intel4004} alt="Intel4004" />
         </div>
         <div className="summary">
           <small>Intel 4004 Microprocessor (1971)</small>
@@ -244,7 +266,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/moore's law.png" alt="Computer" />
+          <img src={MooresLaw} alt="Moore's Law" />
         </div>
         <div className="summary">
           <small>Moore's Law</small>
@@ -269,7 +291,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/bill gates.jpeg" alt="Computer" />
+          <img src={BillGates} alt="Bill Gates" />
         </div>
         <div className="summary">
           <small>Microsoft (1975)</small>
@@ -283,7 +305,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/apple 2.jpeg" alt="Computer" />
+          <img src={Apple2} alt="Apple 2" />
         </div>
         <div className="summary">
           <small>Apple (1976)</small>
@@ -297,7 +319,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/ibm pc.jpeg" alt="Computer" />
+          <img src={IBMPc} alt="IBM PC" />
         </div>
         <div className="summary">
           <small>IBM PC (1981)</small>
@@ -311,7 +333,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/xerox.jpeg" alt="Computer" />
+          <img src={Xerox} alt="Xerox" />
         </div>
         <div className="summary">
           <small>Xerox (1981)</small>
@@ -325,7 +347,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/apple macintosh.jpeg" alt="Computer" />
+          <img src={Macintosh} alt="Macintosh" />
         </div>
         <div className="summary">
           <small>Apple Macintosh (1984)</small>
@@ -339,7 +361,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/www.jpeg" alt="Computer" />
+          <img src={WWW} alt="WWW" />
         </div>
         <div className="summary">
           <small>WWW (1991)</small>
@@ -354,7 +376,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/google.jpeg" alt="Computer" />
+          <img src={Google} alt="Google" />
         </div>
         <div className="summary">
           <small>Google (1998)</small>
@@ -367,7 +389,7 @@ function Main() {
 
       <div className="hero-history">
         <div className="history-images">
-          <img src="src/assets/facebook.png" alt="Computer" />
+          <img src={Facebook} alt="Facebook" />
         </div>
         <div className="summary">
           <small>Facebook (2004)</small>
